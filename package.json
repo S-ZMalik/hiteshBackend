@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "description": "this is last try ",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "author"
   ],
   "author": "admin",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
 }
